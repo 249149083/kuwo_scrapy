@@ -1,0 +1,18 @@
+MYSQL=/usr/bin/mysql
+
+MYSQL_DB=Scrapy
+MYSQL_USER=root
+MYSQL_PASS=
+MYSQL_HOST=localhost
+
+query()
+{
+    SQL=$1
+    ${MYSQL} -u${MYSQL_USER} -h${MYSQL_HOST} ${MYSQL_DB} -e "${SQL}"
+}
+
+query_n()
+{
+    SQL=$1
+    ${MYSQL} -u${MYSQL_USER} -h${MYSQL_HOST} ${MYSQL_DB} -e "${SQL}" -N
+}

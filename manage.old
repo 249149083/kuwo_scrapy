@@ -1,0 +1,110 @@
+#!/bin/bash
+
+source ./conf
+
+SCRIPT_NAME=$0
+ACT=$1
+MAIL=$2
+SPIDER=$3
+
+ARGS_NUM=$#
+
+help()
+{
+    echo "Usage : $SCRIPT_NAME add <mail> <spider>"
+    echo "        $SCRIPT_NAME del <mail> <spider>"
+    echo "        $SCRIPT_NAME del <mail>"
+}
+
+check_spider()
+{
+    spider=`query "select id from spider where m_name = '"$SPIDER"'" | awk '/[0-9]+/'`
+    test $? -eq 0 || exit 1
+    if test -z $spider
+    then
+	echo "not such spider : $SPIDER"
+	return 1
+    fi
+    echo $spider
+}
+
+
+check_user()
+{
+    user=`query "select id from user where m_email = '"$MAIL"'" | awk '/[0-9]+/'`
+    test $? -eq 0 || exit 1
+    if test -z $user
+    then
+	echo "not such mail : $MAIL"
+	return 1
+    fi
+    echo $user
+}
+
+add()
+{
+    spider=`check_spider`
+    if test $? -ne 0
+    then
+	echo $spider
+	exit 1
+    fi
+    mail_check=`echo $MAIL | awk '/[a-z\.0-9A-Z_]+@[a-z0-9A-Z\._]+\.(cn|com|net)/'`
+    if test -z $mail_check
+    then
+	echo "mail format error : $MAIL"
+	exit 1
+    fi
+    query "insert ignore into user(m_email, c_alarm_level) values('"$MAIL"',7)"
+    test $? -eq 0 || exit 1
+    user=`check_user`
+    if test $? -ne 0
+    then
+	echo $user
+	exit 1
+    fi
+    query "insert into alarm(m_user_id, m_spider_id) values('"$user"','"$spider"')"
+    test $? -eq 0 || exit 1
+}
+
+del()
+{
+    user=`check_user`
+    if test $? -ne 0
+    then
+	echo $user
+	exit 1
+    fi
+
+    if test -z $SPIDER
+    then
+	query "delete from user where id = $user"
+	query "delete from alarm where m_user_id = $user"
+    else
+	spider=`check_spider`
+	if test $? -ne 0
+	then
+	    echo $spider
+	    exit 1
+	fi
+	query "delete from alarm where m_user_id = $user and m_spider_id = $spider"
+    fi
+}
+
+if test $ARGS_NUM -le 1
+then
+    help
+    exit 
+fi
+
+case $ACT in
+    del)
+	del
+	;;
+    add)
+	add
+	;;
+    *)
+	help
+	;;
+esac

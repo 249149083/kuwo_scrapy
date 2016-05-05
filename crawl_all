@@ -1,0 +1,29 @@
+#!/bin/bash
+
+WORKDIR=$(dirname ${0})
+cd ${WORKDIR}
+source $WORKDIR/conf
+SCRAPY=/usr/local/bin/scrapy
+
+# 乱序
+SPIDERS=`query_n "select m_name from spider where c_status = 0 order by rand()"` 
+
+LONGEST=0
+
+echo "`date +"[%Y-%m-%d %H:%M:%S]"`" "========= start crawl =========="
+for spider in ${SPIDERS}
+do
+    printf "%s %-48s" "`date +"[%Y-%m-%d %H:%M:%S]"`" "crawling ${spider}"
+    ERR=`${SCRAPY} crawl ${spider} 2>&1`
+    if test -n "${ERR}"
+    then
+	echo -e "(error)"
+	echo
+	echo ${ERR}
+	echo
+    else
+	echo -e "(done)"
+    fi
+done
+echo "`date +"[%Y-%m-%d %H:%M:%S]"`" "========== stop crawl =========="
+echo

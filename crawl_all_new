@@ -1,0 +1,106 @@
+#!/bin/bash
+set -x
+WORKDIR=$(dirname ${0})
+cd ${WORKDIR}
+source $WORKDIR/conf
+
+SCRAPY=/usr/local/bin/scrapy
+SPIDERS=`query_n "select m_name from spider where c_status = 0"` 
+W_LOCK_FILE=${WORKDIR}/.wlock
+R_LOCK_FILE=${WORKDIR}/.rlock
+
+CRAWL_LOCK_FILE=${WORKDIR}/.lock
+
+
+if test -f "${CRAWL_LOCK_FILE}"
+then
+    exit 1
+fi
+echo ${$} > ${CRAWL_LOCK_FILE}
+PL=10
+
+w_lock()
+{
+    read -u 888 
+}
+
+r_lock()
+{
+    read -u 889 
+}
+
+w_release()
+{
+    echo >& 888
+}
+
+r_release()
+{
+    echo >& 889
+}
+
+close()
+{
+    exec 888<&-
+    exec 888>&-
+    exec 889>&-
+    exec 889<&-
+    rm -f ${CRAWL_LOCK_FILE}
+}
+
+init()
+{
+    mkfifo ${W_LOCK_FILE}
+    mkfifo ${R_LOCK_FILE}
+    exec 888<>${W_LOCK_FILE}
+    exec 889<>${R_LOCK_FILE}
+    rm -f ${W_LOCK_FILE}
+    rm -f ${R_LOCK_FILE}
+    w_release
+    for((n = 0; n < ${PL}; n++))
+    do
+	r_release
+    done
+    trap "close" 2
+}
+
+
+crawl()
+{
+    spider=${1}
+    printf "%s %-48s" "`date +"[%Y-%m-%d %H:%M:%S]"`" "crawling ${spider}"
+    st=`date +"%s"`
+    ERR=`${SCRAPY} crawl ${spider} 2>&1`
+    et=`date +"%s"`
+    printf "use: %-3s%s " "`expr ${et} - ${st}`" "seconds"
+    if test -n "${ERR}"
+    then
+	echo "(error)"
+	echo "${ERR}"
+	echo
+    else
+	echo "(done)"
+    fi
+}
+
+init
+
+echo "`date +"[%Y-%m-%d %H:%M:%S]"`" "========= start crawl =========="
+for spider in ${SPIDERS}
+do
+    r_lock
+    {
+	result=`crawl ${spider}`
+	w_lock
+	echo "${result}"
+	w_release
+	r_release
+    }&
+done
+wait
+close
+echo "`date +"[%Y-%m-%d %H:%M:%S]"`" "========== stop crawl =========="
+
+
+
+

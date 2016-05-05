@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/System/!svn/ver/18172/data/dms/kuwo_scrapy/kuwo_scrapy/spiders
+END
+xiami__new_album.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/System/!svn/ver/18189/data/dms/kuwo_scrapy/kuwo_scrapy/spiders/xiami__new_album.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/System/!svn/ver/18088/data/dms/kuwo_scrapy/kuwo_scrapy/spiders/__init__.py
+END
+yinyuetai__mv_shoubo.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/System/!svn/ver/18153/data/dms/kuwo_scrapy/kuwo_scrapy/spiders/yinyuetai__mv_shoubo.py
+END
+douban_list.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/System/!svn/ver/18158/data/dms/kuwo_scrapy/kuwo_scrapy/spiders/douban_list.py
+END
+qq_pc.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/System/!svn/ver/18193/data/dms/kuwo_scrapy/kuwo_scrapy/spiders/qq_pc.py
+END
+douban_web.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/System/!svn/ver/18189/data/dms/kuwo_scrapy/kuwo_scrapy/spiders/douban_web.py
+END
+letv_list.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/System/!svn/ver/18189/data/dms/kuwo_scrapy/kuwo_scrapy/spiders/letv_list.py
+END
+baidu__top.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/System/!svn/ver/18157/data/dms/kuwo_scrapy/kuwo_scrapy/spiders/baidu__top.py
+END
+iqiyi_top.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/System/!svn/ver/18157/data/dms/kuwo_scrapy/kuwo_scrapy/spiders/iqiyi_top.py
+END
+letv_web.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/System/!svn/ver/18157/data/dms/kuwo_scrapy/kuwo_scrapy/spiders/letv_web.py
+END
+youku_list.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/System/!svn/ver/18189/data/dms/kuwo_scrapy/kuwo_scrapy/spiders/youku_list.py
+END
+official_list.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/System/!svn/ver/18193/data/dms/kuwo_scrapy/kuwo_scrapy/spiders/official_list.py
+END
+sohu_list.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/System/!svn/ver/18158/data/dms/kuwo_scrapy/kuwo_scrapy/spiders/sohu_list.py
+END
+baidu_video.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/System/!svn/ver/18175/data/dms/kuwo_scrapy/kuwo_scrapy/spiders/baidu_video.py
+END
+baidu__music_index.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/System/!svn/ver/18191/data/dms/kuwo_scrapy/kuwo_scrapy/spiders/baidu__music_index.py
+END
+funcs.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/System/!svn/ver/18172/data/dms/kuwo_scrapy/kuwo_scrapy/spiders/funcs.py
+END
+qq_web.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/System/!svn/ver/18189/data/dms/kuwo_scrapy/kuwo_scrapy/spiders/qq_web.py
+END
+iqiyi_list.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/System/!svn/ver/18157/data/dms/kuwo_scrapy/kuwo_scrapy/spiders/iqiyi_list.py
+END
+1ting_web.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/System/!svn/ver/18193/data/dms/kuwo_scrapy/kuwo_scrapy/spiders/1ting_web.py
+END
+netease_list.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/System/!svn/ver/18175/data/dms/kuwo_scrapy/kuwo_scrapy/spiders/netease_list.py
+END
+5sing_list.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/System/!svn/ver/18193/data/dms/kuwo_scrapy/kuwo_scrapy/spiders/5sing_list.py
+END
+iqiyi_web.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/System/!svn/ver/18189/data/dms/kuwo_scrapy/kuwo_scrapy/spiders/iqiyi_web.py
+END
+netease_web.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/System/!svn/ver/18204/data/dms/kuwo_scrapy/kuwo_scrapy/spiders/netease_web.py
+END
+5sing_web.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/System/!svn/ver/18166/data/dms/kuwo_scrapy/kuwo_scrapy/spiders/5sing_web.py
+END

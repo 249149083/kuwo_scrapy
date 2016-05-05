@@ -1,0 +1,891 @@
+{
+  "fsing_list__cpy_good_zh": [
+    "xiaoxin.zhang@kuwo.cn", 
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn", 
+    "liang.ma01@kuwo.cn",
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "xiami_web__new_album": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn", 
+    "liang.ma01@kuwo.cn",
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "douban_web__movie_upcoming": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn", 
+    "liang.ma01@kuwo.cn",
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "fsing_list__cpy_good_classical": [
+    "xiaoxin.zhang@kuwo.cn", 
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn", 
+    "liang.ma01@kuwo.cn",
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "iqiyi_list__movie": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "qq_web__new_album": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn", 
+    "wei.zhao02@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "guochun.liu@kuwo.cn"
+  ], 
+  "letv_web__movie": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn", 
+    "liang.ma01@kuwo.cn",
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "qq_pc__recm_album_nd": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn", 
+    "chunxia.xin@kuwo.cn", 
+    "wei.zhao02@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "guochun.liu@kuwo.cn"
+  ], 
+  "douban_list__movie_new": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "mnet__music_daily": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn", 
+    "liang.ma01@kuwo.cn",
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "fsing_web__cpy": [
+    "xiaoxin.zhang@kuwo.cn", 
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "itunes__music": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "fsing_list__cpy_good_jp": [
+    "xiaoxin.zhang@kuwo.cn", 
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "youku_list__movie": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "baidu_top__new_tv": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn",
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "youku_list__zy": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "fsing_web__org": [
+    "xiaoxin.zhang@kuwo.cn", 
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "oting_web__music_jk": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "netease_web__new_album": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "fsing_list__org_good_rnr": [
+    "xiaoxin.zhang@kuwo.cn", 
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "yinyuetai__mv_shoubo_ht": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn", 
+    "liang.ma@kuwo.cn", 
+    "yinfeng.tian@kuwo.cn", 
+    "jing.li@kuwo.cn", 
+    "wei.zhao02@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "qian.zhang01@kuwo.cn"
+  ], 
+  "fsing_list__org_lastest": [
+    "xiaoxin.zhang@kuwo.cn", 
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "sohu_list__zy": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "fsing_list__cpy_good_kr": [
+    "xiaoxin.zhang@kuwo.cn", 
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "youku_list__dm": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "iqiyi_web__vmovie": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "douban_web__tv": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "oting_web__music_zh": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "mnet__music_weekly": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "qq_pc__single_jp": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn", 
+    "chunxia.xin@kuwo.cn", 
+    "zhen.zhang@kuwo.cn", 
+    "wei.zhao02@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "guochun.liu@kuwo.cn"
+  ], 
+  "qq_pc__quality_up_kara": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "letv_web__zy": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "billboard__music": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "qq_pc__quality_up_movie": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "baidu_top__new_zy": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn", 
+    "liang.ma01@kuwo.cn",
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "sohu_list__dm": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "qq_pc__new_album": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn", 
+    "chunxia.xin@kuwo.cn", 
+    "wei.zhao02@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "guochun.liu@kuwo.cn"
+  ], 
+  "iqiyi_top__zy": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "netease_list__new_org_music": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "letv_list__tv": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "qq_pc__single_kr": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn", 
+    "chunxia.xin@kuwo.cn", 
+    "zhen.zhang@kuwo.cn", 
+    "wei.zhao02@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "guochun.liu@kuwo.cn"
+  ], 
+  "oting_web__new_album": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "letv_web__dm": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "netease_list__new_music": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "qq_pc__quality_up_classical": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "iqiyi_top__movie": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "sohu_list__tv": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "fsing_list__org_good_mnm": [
+    "xiaoxin.zhang@kuwo.cn", 
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "letv_web__tv": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "baidu_top__new_dm": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "qq_pc__recm_album_gt": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn", 
+    "chunxia.xin@kuwo.cn", 
+    "wei.zhao02@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "guochun.liu@kuwo.cn"
+  ], 
+  "fsing_list__org_recommend": [
+    "xiaoxin.zhang@kuwo.cn", 
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "qq_pc__recm_album_jp": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn", 
+    "chunxia.xin@kuwo.cn", 
+    "zhen.zhang@kuwo.cn", 
+    "wei.zhao02@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "guochun.liu@kuwo.cn"
+  ], 
+  "fsing_list__cpy_recommend": [
+    "xiaoxin.zhang@kuwo.cn", 
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "iqiyi_list__dm": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "fsing_list__org_good_pop": [
+    "xiaoxin.zhang@kuwo.cn", 
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "fsing_list__cpy_lastest": [
+    "xiaoxin.zhang@kuwo.cn", 
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "douban_list__movie_hot": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "youku_list__vmovie": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "baidu__lossless_new_album_all": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "iqiyi_web__zy": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "iqiyi_web__movie": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "qq_pc__quality_up_jd": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "oricon__music_daily": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "yinyuetai__mv_shoubo_all": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn", 
+    "liang.ma@kuwo.cn", 
+    "yinfeng.tian@kuwo.cn", 
+    "jing.li@kuwo.cn", 
+    "wei.zhao02@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "qian.zhang01@kuwo.cn"
+  ], 
+  "iqiyi_list__tv": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "iqiyi_top__dm": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "qq_pc__quality_up_pop": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "iqiyi_top__tv": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "baidu__new_song": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "qq_pc__single_eu": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn", 
+    "chunxia.xin@kuwo.cn", 
+    "zhen.zhang@kuwo.cn", 
+    "wei.zhao02@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "guochun.liu@kuwo.cn"
+  ], 
+  "fsing_list__org_good_classical": [
+    "xiaoxin.zhang@kuwo.cn", 
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "douban_web__movie_nowplaying": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "qq_pc__recm_album_eu": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn", 
+    "chunxia.xin@kuwo.cn", 
+    "zhen.zhang@kuwo.cn", 
+    "wei.zhao02@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "guochun.liu@kuwo.cn"
+  ], 
+  "colashare": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "iqiyi_list__zy": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "qq_pc__single_nd": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn", 
+    "chunxia.xin@kuwo.cn", 
+    "wei.zhao02@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "guochun.liu@kuwo.cn"
+  ], 
+  "oricon__music_weekly": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "sohu_list__movie": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "baidu__lossless_hot_album": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "yinyuetai__mv_shoubo_kr": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn", 
+    "liang.ma@kuwo.cn", 
+    "yinfeng.tian@kuwo.cn", 
+    "jing.li@kuwo.cn", 
+    "wei.zhao02@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "qian.zhang01@kuwo.cn"
+  ], 
+  "oting_web__album_jk": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "youku_list__tv": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "qq_web__mv": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn", 
+    "liang.ma@kuwo.cn", 
+    "yinfeng.tian@kuwo.cn", 
+    "jing.li@kuwo.cn", 
+    "wei.zhao02@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "qian.zhang01@kuwo.cn"
+  ], 
+  "oting_web__music_ea": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "baidu_top__new_movie": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "qq_pc__quality_up_dj": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "letv_list__movie": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "yinyuetai__mv_shoubo_us": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn", 
+    "liang.ma@kuwo.cn", 
+    "yinfeng.tian@kuwo.cn", 
+    "jing.li@kuwo.cn", 
+    "wei.zhao02@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "qian.zhang01@kuwo.cn"
+  ], 
+  "oting_web__album_ea": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "iqiyi_web__tv": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "qq_pc__recm_album_kr": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn", 
+    "chunxia.xin@kuwo.cn", 
+    "zhen.zhang@kuwo.cn", 
+    "wei.zhao02@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "guochun.liu@kuwo.cn"
+  ], 
+  "oting_web__album_zh": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "oting_web__album_ex": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "baidu__new_album": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "yinyuetai__mv_shoubo_jp": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn", 
+    "liang.ma@kuwo.cn", 
+    "yinfeng.tian@kuwo.cn", 
+    "jing.li@kuwo.cn", 
+    "wei.zhao02@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "qian.zhang01@kuwo.cn"
+  ], 
+  "iqiyi_web__dm": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "qq_pc__single_gt": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn", 
+    "chunxia.xin@kuwo.cn", 
+    "wei.zhao02@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "guochun.liu@kuwo.cn"
+  ], 
+  "fsing_list__cpy_good_ea": [
+    "xiaoxin.zhang@kuwo.cn", 
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "xiami__new_album": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ], 
+  "yinyuetai__mv_shoubo_ml": [
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn", 
+    "liang.ma@kuwo.cn", 
+    "yinfeng.tian@kuwo.cn", 
+    "jing.li@kuwo.cn", 
+    "wei.zhao02@kuwo.cn", 
+    "liang.ma01@kuwo.cn",
+    "qian.zhang01@kuwo.cn"
+  ], 
+  "fsing_list__bz_lastest": [
+    "xiaoxin.zhang@kuwo.cn", 
+    "jian.zhu@kuwo.cn", 
+    "wenyu.cui@kuwo.cn", 
+    "wei.han@kuwo.cn", 
+    "zunding.wang@kuwo.cn",
+    "liang.ma01@kuwo.cn", 
+    "wei.zhao02@kuwo.cn"
+  ]
+}

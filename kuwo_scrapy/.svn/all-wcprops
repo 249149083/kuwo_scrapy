@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/System/!svn/ver/18172/data/dms/kuwo_scrapy/kuwo_scrapy
+END
+pipelines.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/System/!svn/ver/18193/data/dms/kuwo_scrapy/kuwo_scrapy/pipelines.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/System/!svn/ver/18088/data/dms/kuwo_scrapy/kuwo_scrapy/__init__.py
+END
+settings.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/System/!svn/ver/18189/data/dms/kuwo_scrapy/kuwo_scrapy/settings.py
+END
+items.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/System/!svn/ver/18157/data/dms/kuwo_scrapy/kuwo_scrapy/items.py
+END

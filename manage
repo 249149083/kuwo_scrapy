@@ -1,0 +1,361 @@
+#!/usr/local/bin/python
+#-*- coding:utf-8 -*-
+
+import re
+import sys
+import json
+import MySQLdb
+
+import traceback
+
+from MySQLdb import *
+from kuwo_scrapy.settings import *
+
+argv = sys.argv
+
+proc_name = argv[0]
+
+
+#KUWO_SCRAPY_MYSQL_CS = 'utf8'
+#KUWO_SCRAPY_MYSQL_DB = 'Scrapy'
+#KUWO_SCRAPY_MYSQL_HOST = '172.17.60.35'
+#KUWO_SCRAPY_MYSQL_HOST = ''
+#KUWO_SCRAPY_MYSQL_USER = 'nethin'
+#KUWO_SCRAPY_MYSQL_USER = 'root'
+#KUWO_SCRAPY_MYSQL_PASS = 'dipijvz7'
+#KUWO_SCRAPY_MYSQL_PASS = ''
+
+MYSQL_CONF = {
+    'db' : KUWO_SCRAPY_MYSQL_DB,
+    'host' : KUWO_SCRAPY_MYSQL_HOST,
+    'user' : KUWO_SCRAPY_MYSQL_USER,
+    'passwd' : KUWO_SCRAPY_MYSQL_PASS,
+    'charset' : KUWO_SCRAPY_MYSQL_CS,
+}
+
+opts = {
+    'add'   : '<email> <spider>',
+    'del'   : '<email> [spider]',
+    'lst'   : '[name]',
+    'sync'  : '[file]',
+    'init'  : '[spider]',
+    'open'  : '[spider]',
+    'close' : '[spider]',
+    'status': '[spider]',
+}
+
+opt_formats = {
+    'name'   : r'[\w\.]+',
+    'email'  : r'[\w\.]+@[\w]+\.[\w]+',
+    'spider' : r'[\w]+',
+}
+
+
+def help():
+    print "Usage : <must> [option]"
+    for opt in opts:
+        print '\t' + ' '.join([proc_name, opt, opts[opt]])
+
+
+def trait_opt(opt_argv):
+    rules = {'must': [], 'option': []}
+    needs = re.findall(r'<[\w]+>|\[[\w]+\]', opt_argv)
+    
+    for need in needs:
+        if need[0] == '<' and need[-1] == '>':
+            need = need.strip('<|>')
+            rules['must'].append(need)
+
+        if need[0] == '[' and need[-1] == ']':
+            need = need.strip('[|]')
+            rules['option'].append(need)
+
+    return rules
+
+
+def check_format(fmt, str):
+    ret = re.findall(fmt, str)
+    if len(ret) == 1:
+        return True
+
+    return False
+
+
+def parse_opt():
+    if len(argv) < 2:
+        help()
+        exit(1)
+
+    task = argv[1]
+    if not opts.has_key(task):
+        print 'invaild task : %s' % task
+        help()
+        exit(1)
+    
+    opt_argv = opts[task]
+
+    rules = trait_opt(opt_argv)
+    
+    if len(argv) - 2 < len(rules['must']):
+        print 'invaild option : %s'  % ' '.join(argv)
+        help()
+        exit(1)
+
+
+    index = 1
+    got_argv = {'task': task}
+
+    for must in rules['must']:
+        index += 1
+        if index >= len(argv):
+            break
+
+        got_argv[must] = argv[index]
+
+    for option in rules['option']:
+        index += 1
+        if index >= len(argv):
+            break
+
+        got_argv[option] = argv[index]
+
+    for got in got_argv:
+        if got in opt_formats:
+            if not check_format(opt_formats[got], got_argv[got]):
+                print 'invalid %s format : %s' % (got, got_argv[got])
+                exit(1)
+
+
+    return got_argv
+
+
+class MySQLConnector(object):
+    conf = MYSQL_CONF
+    conn = None
+    cursor = None
+
+    def check_conf(self, conf):
+        for key in MYSQL_CONF:
+            if not conf.has_key(key):
+                return False
+                
+        return True
+
+    def set_conf(self, conf = None):
+        if conf and self.check_conf(conf):
+            self.conf = conf
+
+    def connect(self):
+        try:
+            conn = Connection(host = self.conf['host'], user = self.conf['user'], 
+                              passwd = self.conf['passwd'], db = self.conf['db'], charset = self.conf['charset'])
+        except Exception,e:
+            traceback.print_exc()
+            print e
+            exit(1)
+
+        self.conn = conn
+
+    def set_cursor(self, cursor_type = MySQLdb.cursors.DictCursor):
+        try:
+            cursor = self.conn.cursor(cursor_type)
+        except Exception,e:
+            traceback.print_exc()
+            print e
+            exit(1)
+        
+        self.cursor = cursor
+
+    def __init__(self, conf = None):
+        self.set_conf(conf)
+        self.connect()
+        self.set_cursor()
+
+
+    def get_one(self, sql):
+        item = None
+        try:
+            self.cursor.execute(sql)
+            item = self.cursor.fetchone()
+        except Exception,e:
+            traceback.print_exc()
+            print e
+            exit(1)
+
+        return item
+
+
+    def get_all(self, sql):
+        items = []
+        try:
+            self.cursor.execute(sql)
+            items = self.cursor.fetchall()
+        except Exception,e:
+            traceback.print_exc()
+            print e
+            exit(1)
+
+        return items
+
+
+    def query(self, sql):
+        num = 0
+        try:
+            num = self.cursor.execute(sql)
+            self.conn.commit()
+        except Exception,e:
+            traceback.print_exc()
+            print e
+            exit(1)
+
+        return num
+
+
+connector = MySQLConnector()
+
+def add(opt):
+    spider = connector.get_one('select * from spider where m_name = "%s"' % (opt['spider']))
+    if not spider:
+        print 'no such spider : %s' % (opt['spider'])
+        exit(1)
+        
+    connector.query('insert ignore into user(m_email, c_alarm_level) values("%s", 7)' % opt['email'])
+
+
+    user = connector.get_one('select * from user where m_email = "%s"' % (opt['email']))
+    if not user:
+        print 'not such email : %s' % (opt['email'])
+        exit(1)
+        
+    alarm = connector.get_one('select * from alarm where m_user_id = %d and m_spider_id = %d' % (user['id'], spider['id']))
+    
+    if alarm:
+        if 'sync' not in opt:
+            print 'exists alarm:', user['m_email'], spider['m_name']
+        return
+
+    n = connector.query('insert into alarm(m_user_id, m_spider_id) values("%s", "%s")' % (user['id'], spider['id']))
+    if n == 0:
+        print 'add alram fail:', user['m_email'], spider['m_name']
+
+
+def lst(opt):
+    send_list = []
+    if 'name' in opt:
+        sql = 'select spider.m_name as spider, user.m_email as email from spider join alarm on alarm.m_spider_id = spider.id join user on user.id = alarm.m_user_id where user.c_alarm_level > 0 and (user.m_email like "%(name)s%%" or spider.m_name like "%(name)s%%")' % opt
+        send_list = connector.get_all(sql)
+
+    else:
+        sql = 'select spider.m_name as spider, user.m_email as email from spider join alarm on alarm.m_spider_id = spider.id join user on user.id = alarm.m_user_id where user.c_alarm_level > 0'
+        send_list = connector.get_all(sql)
+
+    send = {}
+    for s in send_list:
+        email = s['email']
+        spider = s['spider']
+        
+        if spider not in send:
+            send[spider] = []
+
+        send[spider].append(email)
+
+    print json.dumps(send, indent = 2)
+
+
+def delet(opt):
+    sql = ''
+    user = connector.get_one('select * from user where m_email = "%(email)s"' % opt)
+
+
+    if not user:
+        print 'not such email:', opt['email']
+        exit(1)
+    
+    if 'spider' in opt:
+        spider = connector.get_one('select * from spider where m_name like "%(spider)s%%"' % opt)
+        if spider:
+            sql = 'delete from alarm where m_user_id = %d and m_spider_id = %d' % (user['id'], spider['id'])
+        
+    if 'spider' not in opt:
+        sql = 'delete from alarm where m_user_id = %d' % (user['id'])
+
+    print connector.query(sql)
+    
+
+def sync(opt):
+    if 'file' not in opt:
+        lst({})
+        
+    else:
+        try:
+            fp = open(opt['file'])
+            spiders = json.load(fp)
+            n = connector.query('delete from alarm')
+            for spider in spiders:
+                emails = spiders[spider]
+                for email in emails:
+                    add({'email': email, 'spider': spider, 'sync': True})
+            
+        except Exception,e:
+            print e
+            exit(1)
+
+
+def set_status(opt, status):
+    try:
+        if 'spider' not in opt:
+            print connector.query('update spider set c_status = %d where id > 0' % (status))
+            
+        else:
+            print connector.query('update spider set c_status = %d where m_name like "%s%%"' % (status, opt['spider']))
+            
+    except Exception,e:
+        print e
+        exit(1)
+
+def get_spiders(opt):
+    spiders = []
+    try:
+        if 'spider' not in opt:
+            spiders = connector.get_all('select * from spider')
+    
+        else:
+            spiders = connector.get_all('select * from spider where m_name like "%s%%"' % (opt['spider']))
+
+    except Exception,e:
+        print e
+        exit(1)
+    
+    return spiders
+
+def status(opt):
+    spiders = get_spiders(opt)
+    print json.dumps([{s['m_name'] : 'open' if s['c_status'] == 0 else 'close'} for s in spiders], indent = 2)
+
+
+def init(opt):
+    spiders = get_spiders(opt)
+    print json.dumps({s['m_name'] : [] for s in spiders}, indent = 2)
+        
+
+def cls(opt):
+    set_status(opt, 1)
+
+def opn(opt):
+    set_status(opt, 0)
+
+        
+task_map = {
+    'add'   : add,
+    'lst'   : lst,
+    'del'   : delet,
+    'init'  : init,
+    'sync'  : sync,
+    'open'  : opn,
+    'close' : cls,
+    'status': status
+}
+
+if __name__ == "__main__":
+    opt = parse_opt()
+    task_map[opt['task']](opt)
