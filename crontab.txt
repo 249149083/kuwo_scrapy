@@ -1,0 +1,5 @@
+*/10 * * * * /home/nethin/kuwo_scrapy/crawl_all_new >> /home/nethin/kuwo_scrapy/crawl.log 2>&1
+0 0 * * 5 /bin/rm /home/nethin/kuwo_scrapy/crawl.log 2>&1
+0 12 * * * /home/nethin/haogeku/haogeku/runspider.sh >> /home/nethin/haogeku/haogeku/runspider.log 2>&1
+
+#0 */1 * * * /home/nethin/ultra_complete/netease_baidu/netease_baidu/schedule restart >> /home/nethin/ultra_complete/netease_baidu/netease_baidu/schedule.log 2>&1
